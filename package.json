@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "entry point": "index.js",
+  "test command": "",
+  "git repository": "https://github.com/AnytaLeon/workspace",
+  "keywords": [
+    "game"
+  ],
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Petelina Anna",
+  "license": "ISC",
+  "description": "Browser based game",
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/eslint-parser": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@eslint/js": "^9.17.0",
+    "@stylistic/eslint-plugin-js": "^2.12.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "globals": "^15.14.0"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0"
+  }
+}
